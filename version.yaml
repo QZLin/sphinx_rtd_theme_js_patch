@@ -1,0 +1,9 @@
+theme.origin.js:
+  repo: https://github.com/mkdocs/mkdocs
+  path: mkcos/themes/readthedocs/js
+  version: 575a19a5f4a880e79f39d9613d5dde499f296369
+
+theme.src.js:
+  repo: https://github.com/readthedocs/sphinx_rtd_theme
+  path: sphinx_rtd_theme/static/js/theme.js
+  version: c0c52f41ea7799d72363327719de4bd9b00b6ef8
