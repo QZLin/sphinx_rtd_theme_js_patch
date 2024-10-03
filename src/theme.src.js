@@ -111,7 +111,7 @@ function ThemeNav () {
             .wrap("<div class='wy-table-responsive citation'></div>");
 
         // Add expand links to all parents of nested ul
-        $('.wy-menu-vertical ul').not('.simple').siblings('a').each(function () {
+        $('.wy-menu-vertical ul :has(li)').not('.simple').siblings('a').each(function () {
             var link = $(this);
                 expand =
                     $('<button class="toctree-expand" title="Open/close menu"></button>');
